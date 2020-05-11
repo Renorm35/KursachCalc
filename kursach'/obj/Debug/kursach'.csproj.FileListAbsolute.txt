@@ -1,0 +1,20 @@
+C:\Users\User\source\repos\kursach'\kursach'\bin\Debug\kursach'.exe.config
+C:\Users\User\source\repos\kursach'\kursach'\bin\Debug\kursach'.exe
+C:\Users\User\source\repos\kursach'\kursach'\bin\Debug\kursach'.pdb
+C:\Users\User\source\repos\kursach'\kursach'\obj\Debug\kursach_.Form1.resources
+C:\Users\User\source\repos\kursach'\kursach'\obj\Debug\kursach_.Properties.Resources.resources
+C:\Users\User\source\repos\kursach'\kursach'\obj\Debug\kursach'.csproj.GenerateResource.cache
+C:\Users\User\source\repos\kursach'\kursach'\obj\Debug\kursach'.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\kursach'\kursach'\obj\Debug\kursach'.exe
+C:\Users\User\source\repos\kursach'\kursach'\obj\Debug\kursach'.pdb
+C:\Users\User\source\repos\kursach'\kursach'\obj\Debug\kursach'.csprojAssemblyReference.cache
+C:\Users\User\Desktop\kursach' back 5\kursach'\bin\Debug\kursach'.exe.config
+C:\Users\User\Desktop\kursach' back 5\kursach'\bin\Debug\kursach'.exe
+C:\Users\User\Desktop\kursach' back 5\kursach'\bin\Debug\kursach'.pdb
+C:\Users\User\Desktop\kursach' back 5\kursach'\obj\Debug\kursach'.csprojAssemblyReference.cache
+C:\Users\User\Desktop\kursach' back 5\kursach'\obj\Debug\kursach_.Form1.resources
+C:\Users\User\Desktop\kursach' back 5\kursach'\obj\Debug\kursach_.Properties.Resources.resources
+C:\Users\User\Desktop\kursach' back 5\kursach'\obj\Debug\kursach'.csproj.GenerateResource.cache
+C:\Users\User\Desktop\kursach' back 5\kursach'\obj\Debug\kursach'.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\kursach' back 5\kursach'\obj\Debug\kursach'.exe
+C:\Users\User\Desktop\kursach' back 5\kursach'\obj\Debug\kursach'.pdb
