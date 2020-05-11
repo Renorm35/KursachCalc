@@ -123,6 +123,17 @@ namespace kursach_
         build_history(true);
         }
 
+        private void выходToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void справкаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 newForm=new Form2();
+            newForm.Show();
+        }
+
         private void TwoOperand_Click(object sender, EventArgs e)
         {
         calc_result();

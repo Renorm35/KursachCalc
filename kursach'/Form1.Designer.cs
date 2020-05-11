@@ -64,11 +64,17 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.DEG = new System.Windows.Forms.RadioButton();
             this.History = new System.Windows.Forms.RichTextBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.функцииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.очиститьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // BTN_2
             // 
-            this.BTN_2.Location = new System.Drawing.Point(193, 150);
+            this.BTN_2.Location = new System.Drawing.Point(193, 164);
             this.BTN_2.Name = "BTN_2";
             this.BTN_2.Size = new System.Drawing.Size(75, 23);
             this.BTN_2.TabIndex = 0;
@@ -78,7 +84,7 @@
             // 
             // BTN_3
             // 
-            this.BTN_3.Location = new System.Drawing.Point(274, 150);
+            this.BTN_3.Location = new System.Drawing.Point(274, 164);
             this.BTN_3.Name = "BTN_3";
             this.BTN_3.Size = new System.Drawing.Size(75, 23);
             this.BTN_3.TabIndex = 1;
@@ -88,7 +94,7 @@
             // 
             // BTN_1
             // 
-            this.BTN_1.Location = new System.Drawing.Point(124, 150);
+            this.BTN_1.Location = new System.Drawing.Point(124, 164);
             this.BTN_1.Name = "BTN_1";
             this.BTN_1.Size = new System.Drawing.Size(63, 23);
             this.BTN_1.TabIndex = 2;
@@ -98,7 +104,7 @@
             // 
             // BTN_4
             // 
-            this.BTN_4.Location = new System.Drawing.Point(124, 179);
+            this.BTN_4.Location = new System.Drawing.Point(124, 193);
             this.BTN_4.Name = "BTN_4";
             this.BTN_4.Size = new System.Drawing.Size(63, 23);
             this.BTN_4.TabIndex = 3;
@@ -108,7 +114,7 @@
             // 
             // BTN_5
             // 
-            this.BTN_5.Location = new System.Drawing.Point(193, 179);
+            this.BTN_5.Location = new System.Drawing.Point(193, 193);
             this.BTN_5.Name = "BTN_5";
             this.BTN_5.Size = new System.Drawing.Size(75, 23);
             this.BTN_5.TabIndex = 4;
@@ -118,7 +124,7 @@
             // 
             // BTN_6
             // 
-            this.BTN_6.Location = new System.Drawing.Point(274, 179);
+            this.BTN_6.Location = new System.Drawing.Point(274, 193);
             this.BTN_6.Name = "BTN_6";
             this.BTN_6.Size = new System.Drawing.Size(75, 23);
             this.BTN_6.TabIndex = 5;
@@ -128,7 +134,7 @@
             // 
             // BTN_7
             // 
-            this.BTN_7.Location = new System.Drawing.Point(124, 208);
+            this.BTN_7.Location = new System.Drawing.Point(124, 222);
             this.BTN_7.Name = "BTN_7";
             this.BTN_7.Size = new System.Drawing.Size(63, 23);
             this.BTN_7.TabIndex = 6;
@@ -138,7 +144,7 @@
             // 
             // BTN_8
             // 
-            this.BTN_8.Location = new System.Drawing.Point(193, 208);
+            this.BTN_8.Location = new System.Drawing.Point(193, 222);
             this.BTN_8.Name = "BTN_8";
             this.BTN_8.Size = new System.Drawing.Size(75, 23);
             this.BTN_8.TabIndex = 7;
@@ -148,7 +154,7 @@
             // 
             // BTN_9
             // 
-            this.BTN_9.Location = new System.Drawing.Point(274, 208);
+            this.BTN_9.Location = new System.Drawing.Point(274, 222);
             this.BTN_9.Name = "BTN_9";
             this.BTN_9.Size = new System.Drawing.Size(75, 23);
             this.BTN_9.TabIndex = 8;
@@ -158,7 +164,7 @@
             // 
             // BTN_0
             // 
-            this.BTN_0.Location = new System.Drawing.Point(124, 238);
+            this.BTN_0.Location = new System.Drawing.Point(124, 252);
             this.BTN_0.Name = "BTN_0";
             this.BTN_0.Size = new System.Drawing.Size(144, 23);
             this.BTN_0.TabIndex = 9;
@@ -168,7 +174,7 @@
             // 
             // BTN_result
             // 
-            this.BTN_result.Location = new System.Drawing.Point(355, 238);
+            this.BTN_result.Location = new System.Drawing.Point(355, 252);
             this.BTN_result.Name = "BTN_result";
             this.BTN_result.Size = new System.Drawing.Size(56, 23);
             this.BTN_result.TabIndex = 10;
@@ -178,7 +184,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 49);
+            this.richTextBox1.Location = new System.Drawing.Point(12, 63);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(394, 38);
             this.richTextBox1.TabIndex = 11;
@@ -186,7 +192,7 @@
             // 
             // BTN_point
             // 
-            this.BTN_point.Location = new System.Drawing.Point(274, 238);
+            this.BTN_point.Location = new System.Drawing.Point(274, 252);
             this.BTN_point.Name = "BTN_point";
             this.BTN_point.Size = new System.Drawing.Size(75, 23);
             this.BTN_point.TabIndex = 13;
@@ -196,7 +202,7 @@
             // 
             // BTN_plus
             // 
-            this.BTN_plus.Location = new System.Drawing.Point(356, 208);
+            this.BTN_plus.Location = new System.Drawing.Point(356, 222);
             this.BTN_plus.Name = "BTN_plus";
             this.BTN_plus.Size = new System.Drawing.Size(54, 23);
             this.BTN_plus.TabIndex = 14;
@@ -206,7 +212,7 @@
             // 
             // BTN_minus
             // 
-            this.BTN_minus.Location = new System.Drawing.Point(355, 179);
+            this.BTN_minus.Location = new System.Drawing.Point(355, 193);
             this.BTN_minus.Name = "BTN_minus";
             this.BTN_minus.Size = new System.Drawing.Size(54, 23);
             this.BTN_minus.TabIndex = 15;
@@ -216,7 +222,7 @@
             // 
             // BTN_mul
             // 
-            this.BTN_mul.Location = new System.Drawing.Point(356, 150);
+            this.BTN_mul.Location = new System.Drawing.Point(356, 164);
             this.BTN_mul.Name = "BTN_mul";
             this.BTN_mul.Size = new System.Drawing.Size(53, 23);
             this.BTN_mul.TabIndex = 16;
@@ -226,7 +232,7 @@
             // 
             // BTN_div
             // 
-            this.BTN_div.Location = new System.Drawing.Point(356, 117);
+            this.BTN_div.Location = new System.Drawing.Point(356, 131);
             this.BTN_div.Name = "BTN_div";
             this.BTN_div.Size = new System.Drawing.Size(53, 27);
             this.BTN_div.TabIndex = 17;
@@ -237,7 +243,7 @@
             // BTN_pi
             // 
             this.BTN_pi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BTN_pi.Location = new System.Drawing.Point(7, 222);
+            this.BTN_pi.Location = new System.Drawing.Point(7, 236);
             this.BTN_pi.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_pi.Name = "BTN_pi";
             this.BTN_pi.Size = new System.Drawing.Size(35, 35);
@@ -248,7 +254,7 @@
             // 
             // BTN_tan
             // 
-            this.BTN_tan.Location = new System.Drawing.Point(7, 186);
+            this.BTN_tan.Location = new System.Drawing.Point(7, 200);
             this.BTN_tan.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_tan.Name = "BTN_tan";
             this.BTN_tan.Size = new System.Drawing.Size(35, 35);
@@ -259,7 +265,7 @@
             // 
             // BTN_sin
             // 
-            this.BTN_sin.Location = new System.Drawing.Point(7, 150);
+            this.BTN_sin.Location = new System.Drawing.Point(7, 164);
             this.BTN_sin.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_sin.Name = "BTN_sin";
             this.BTN_sin.Size = new System.Drawing.Size(35, 35);
@@ -270,7 +276,7 @@
             // 
             // BTN_cos
             // 
-            this.BTN_cos.Location = new System.Drawing.Point(7, 113);
+            this.BTN_cos.Location = new System.Drawing.Point(7, 127);
             this.BTN_cos.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_cos.Name = "BTN_cos";
             this.BTN_cos.Size = new System.Drawing.Size(35, 35);
@@ -283,7 +289,7 @@
             // 
             this.BTN_powten_x.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BTN_powten_x.Image = ((System.Drawing.Image)(resources.GetObject("BTN_powten_x.Image")));
-            this.BTN_powten_x.Location = new System.Drawing.Point(45, 222);
+            this.BTN_powten_x.Location = new System.Drawing.Point(45, 236);
             this.BTN_powten_x.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_powten_x.Name = "BTN_powten_x";
             this.BTN_powten_x.Size = new System.Drawing.Size(35, 35);
@@ -294,7 +300,7 @@
             // BTN_sqrt_3
             // 
             this.BTN_sqrt_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BTN_sqrt_3.Location = new System.Drawing.Point(45, 150);
+            this.BTN_sqrt_3.Location = new System.Drawing.Point(45, 164);
             this.BTN_sqrt_3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_sqrt_3.Name = "BTN_sqrt_3";
             this.BTN_sqrt_3.Size = new System.Drawing.Size(35, 35);
@@ -305,7 +311,7 @@
             // 
             // BTN_factorial
             // 
-            this.BTN_factorial.Location = new System.Drawing.Point(45, 113);
+            this.BTN_factorial.Location = new System.Drawing.Point(45, 127);
             this.BTN_factorial.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_factorial.Name = "BTN_factorial";
             this.BTN_factorial.Size = new System.Drawing.Size(35, 35);
@@ -316,7 +322,7 @@
             // 
             // BTN_log
             // 
-            this.BTN_log.Location = new System.Drawing.Point(85, 186);
+            this.BTN_log.Location = new System.Drawing.Point(85, 200);
             this.BTN_log.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_log.Name = "BTN_log";
             this.BTN_log.Size = new System.Drawing.Size(35, 35);
@@ -327,7 +333,7 @@
             // 
             // BTN_ln
             // 
-            this.BTN_ln.Location = new System.Drawing.Point(84, 113);
+            this.BTN_ln.Location = new System.Drawing.Point(84, 127);
             this.BTN_ln.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_ln.Name = "BTN_ln";
             this.BTN_ln.Size = new System.Drawing.Size(35, 35);
@@ -339,7 +345,7 @@
             // BTN_pow_x_y
             // 
             this.BTN_pow_x_y.Image = ((System.Drawing.Image)(resources.GetObject("BTN_pow_x_y.Image")));
-            this.BTN_pow_x_y.Location = new System.Drawing.Point(84, 222);
+            this.BTN_pow_x_y.Location = new System.Drawing.Point(84, 236);
             this.BTN_pow_x_y.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_pow_x_y.Name = "BTN_pow_x_y";
             this.BTN_pow_x_y.Size = new System.Drawing.Size(35, 35);
@@ -349,7 +355,7 @@
             // 
             // BTN_pow_3
             // 
-            this.BTN_pow_3.Location = new System.Drawing.Point(46, 186);
+            this.BTN_pow_3.Location = new System.Drawing.Point(46, 200);
             this.BTN_pow_3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_pow_3.Name = "BTN_pow_3";
             this.BTN_pow_3.Size = new System.Drawing.Size(35, 35);
@@ -360,7 +366,7 @@
             // 
             // BTN_pow_two
             // 
-            this.BTN_pow_two.Location = new System.Drawing.Point(84, 150);
+            this.BTN_pow_two.Location = new System.Drawing.Point(84, 164);
             this.BTN_pow_two.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_pow_two.Name = "BTN_pow_two";
             this.BTN_pow_two.Size = new System.Drawing.Size(35, 35);
@@ -372,7 +378,7 @@
             // delete
             // 
             this.delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.delete.Location = new System.Drawing.Point(274, 117);
+            this.delete.Location = new System.Drawing.Point(274, 131);
             this.delete.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.delete.Name = "delete";
             this.delete.Size = new System.Drawing.Size(75, 27);
@@ -384,7 +390,7 @@
             // BTN_one_div_x
             // 
             this.BTN_one_div_x.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BTN_one_div_x.Location = new System.Drawing.Point(124, 117);
+            this.BTN_one_div_x.Location = new System.Drawing.Point(124, 131);
             this.BTN_one_div_x.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_one_div_x.Name = "BTN_one_div_x";
             this.BTN_one_div_x.Size = new System.Drawing.Size(63, 27);
@@ -396,7 +402,7 @@
             // BTN_sqrt
             // 
             this.BTN_sqrt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.BTN_sqrt.Location = new System.Drawing.Point(193, 117);
+            this.BTN_sqrt.Location = new System.Drawing.Point(193, 131);
             this.BTN_sqrt.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.BTN_sqrt.Name = "BTN_sqrt";
             this.BTN_sqrt.Size = new System.Drawing.Size(74, 27);
@@ -409,7 +415,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(32, 94);
+            this.radioButton1.Location = new System.Drawing.Point(32, 108);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(48, 17);
             this.radioButton1.TabIndex = 58;
@@ -420,7 +426,7 @@
             // DEG
             // 
             this.DEG.AutoSize = true;
-            this.DEG.Location = new System.Drawing.Point(96, 94);
+            this.DEG.Location = new System.Drawing.Point(96, 108);
             this.DEG.Name = "DEG";
             this.DEG.Size = new System.Drawing.Size(48, 17);
             this.DEG.TabIndex = 59;
@@ -430,11 +436,52 @@
             // History
             // 
             this.History.Enabled = false;
-            this.History.Location = new System.Drawing.Point(12, 13);
+            this.History.Location = new System.Drawing.Point(12, 27);
             this.History.Name = "History";
             this.History.Size = new System.Drawing.Size(394, 30);
             this.History.TabIndex = 60;
             this.History.Text = "";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.функцииToolStripMenuItem,
+            this.справкаToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(417, 24);
+            this.menuStrip1.TabIndex = 61;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // функцииToolStripMenuItem
+            // 
+            this.функцииToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.очиститьToolStripMenuItem,
+            this.выходToolStripMenuItem});
+            this.функцииToolStripMenuItem.Name = "функцииToolStripMenuItem";
+            this.функцииToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
+            this.функцииToolStripMenuItem.Text = "Функции";
+            // 
+            // очиститьToolStripMenuItem
+            // 
+            this.очиститьToolStripMenuItem.Name = "очиститьToolStripMenuItem";
+            this.очиститьToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.очиститьToolStripMenuItem.Text = "Очистить";
+            this.очиститьToolStripMenuItem.Click += new System.EventHandler(this.delete_Click);
+            // 
+            // выходToolStripMenuItem
+            // 
+            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem.Text = "Выход";
+            this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
+            // 
+            // справкаToolStripMenuItem
+            // 
+            this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
+            this.справкаToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.справкаToolStripMenuItem.Text = "Справка";
+            this.справкаToolStripMenuItem.Click += new System.EventHandler(this.справкаToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -476,8 +523,12 @@
             this.Controls.Add(this.BTN_1);
             this.Controls.Add(this.BTN_3);
             this.Controls.Add(this.BTN_2);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -520,6 +571,11 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton DEG;
         private System.Windows.Forms.RichTextBox History;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem функцииToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem очиститьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem справкаToolStripMenuItem;
     }
 }
 
